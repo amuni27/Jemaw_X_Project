@@ -9,7 +9,7 @@ function App() {
 
     return (
         <>
-            <Router basename="/Jemaw_X_Project">
+            <Router>
                 <Routes>
                     <Route path="/" element={<Login/>}></Route>
                     <Route path="/home" element={<Home/>}></Route>
